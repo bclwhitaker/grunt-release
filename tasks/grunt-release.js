@@ -98,7 +98,7 @@ module.exports = function(grunt){
       }
       else {
         grunt.verbose.writeln('Running: ' + cmd);
-        shell.exec(cmd, {silent:true});
+        shell.exec(cmd, {silent:false});
       }
 
       if (msg) grunt.log.ok(msg);
